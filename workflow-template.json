@@ -1,0 +1,6 @@
+{
+  "name": "Loss Spike Custom v1",
+  "trigger": "loss_zscore > 3",
+  "steps": ["snapshot", "stage_align", "similarity_retrieval", "evidence_gate", "rank_hypotheses"],
+  "mode": "read_only"
+}
